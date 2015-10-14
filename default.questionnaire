@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questionnaire:Questionnaire xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:questionnaire="questionnaire">
+  <composants xsi:type="questionnaire:Debut" label="Ce questionnaire a pour but d'améliorer les conditions de vie des étudiants."/>
+  <composants xsi:type="questionnaire:Fin" label="Merci d'avoir participé au questionnaire."/>
+  <composants xsi:type="questionnaire:QuestionLibre" label="Comment vous appelez-vous ?"/>
+  <composants xsi:type="questionnaire:QuestionOuiNon" label="ça va ?" lienOui="//@composants.5" lienNon="//@composants.4"/>
+  <composants xsi:type="questionnaire:QuestionLibre" label="Pourquoi ?"/>
+  <composants xsi:type="questionnaire:QuestionChoix" label="Combien avez-vous de frères et soeurs ?"/>
+  <composants xsi:type="questionnaire:QuestionOuiNon" label="Cela vous semble t'il beaucoup ?" lienOui="//@composants.1" lienNon="//@composants.1"/>
+  <liensQC choix="0" lienQuestionChoix="//@composants.5" pointable="//@composants.1"/>
+  <liensQC choix="1" lienQuestionChoix="//@composants.5" pointable="//@composants.1"/>
+  <liensQC choix="moins de 4" lienQuestionChoix="//@composants.5" pointable="//@composants.1"/>
+  <liensQC choix="+ de 5" lienQuestionChoix="//@composants.5" pointable="//@composants.6"/>
+  <liensS lienSimpleSource="//@composants.0" lienSimpleCible="//@composants.2"/>
+  <liensS lienSimpleSource="//@composants.2" lienSimpleCible="//@composants.3"/>
+  <liensS lienSimpleSource="//@composants.4" lienSimpleCible="//@composants.5"/>
+</questionnaire:Questionnaire>

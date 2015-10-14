@@ -1,0 +1,28 @@
+[%import "operations.eol";%]
+
+<html>
+<head></head>
+<body>
+<h1>[%= questionOuiNon.label %]</h1>
+<div style="width:800px;">	
+<button type="button" name="Oui" id="oui">Oui</button>		
+<button type="button" name="Non" id="non">Non</button>
+</div>
+<script type="text/javascript">   
+var oui = document.getElementById("oui");
+oui.onclick = function() {
+	if (typeof(Storage) !== "undefined") {
+		localStorage.setItem("questionnaire",localStorage.getItem("questionnaire") + "[%=questionOuiNon.label%] : Oui";
+		location.href = "[%=getId(questionOuiNon.lienOui.id)%].html";
+	}
+}
+var non = document.getElementById("non");
+non.onclick = function() {
+	if (typeof(Storage) !== "undefined") {
+		localStorage.setItem("questionnaire",localStorage.getItem("questionnaire") + "[%=questionOuiNon.label%] : Non";
+		location.href = "[%=getId(questionOuiNon.lienNon.id)%].html";
+	}
+}
+</script>
+</body>
+</html>

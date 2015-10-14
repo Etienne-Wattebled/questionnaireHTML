@@ -1,0 +1,18 @@
+[%import "operations.eol";%]
+
+<html>
+<head>
+<title>Questionnaire</title>
+</head>
+<body>
+<h1>[%=debut.label%]</h1>
+<form action="[%=getId(getLiensSimples(debut.id).first.id)%].html">
+<input type="submit" value="Commencer">
+</form>
+<script>
+if (typeof(Storage) !== "undefined") {
+	localStorage.setItem("questionnaire","");
+}
+</script>
+</body>
+</html>

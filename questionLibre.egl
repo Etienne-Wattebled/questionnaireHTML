@@ -1,0 +1,20 @@
+[%import "operations.eol";%]
+<html>
+<head>
+</head>
+<body>
+<h1>[%=questionLibre.label%]</h1>
+<form action="[%=getId(getLiensSimples(questionLibre.id).first.id)%].html">
+<input type="text" value="Insérer ici votre réponse" name="reponse">
+<input type="submit" value="Question suivante" name="suivant">
+<script>
+var suivant = document.getElementById('suivant');
+suivant.onclick = function() {
+	var reponse = document.getElementById('reponse');
+	if (typeof(Storage) !== "undefined) {
+		localStorage.setItem("questionnaire",localStorage.getItem() + [%= questionLibre.label %] + ":" + reponse);
+	}
+}
+</script>
+</body>
+</html>

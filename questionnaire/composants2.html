@@ -1,0 +1,19 @@
+<html>
+<head>
+</head>
+<body>
+<h1>Comment vous appelez-vous ?</h1>
+<form action="liensS1.html">
+<input type="text" value="Insérer ici votre réponse" name="reponse">
+<input type="submit" value="Question suivante" name="suivant">
+<script>
+var suivant = document.getElementById('suivant');
+suivant.onclick = function() {
+	var reponse = document.getElementById('reponse');
+	if (typeof(Storage) !== "undefined) {
+		localStorage.setItem("questionnaire",localStorage.getItem() + Comment vous appelez-vous ? + ":" + reponse);
+	}
+}
+</script>
+</body>
+</html>

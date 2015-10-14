@@ -1,0 +1,26 @@
+[%import "operations.eol";%]
+<html>
+<head></head>
+<body>
+<h1>[%=questionChoix.label%]</h1>
+<form>
+<select name="reponse">
+[% var reponses = getLiensMultiples(questionChoix.id); %]
+[% for (reponse in reponses) { %]
+	<option name="[%= getId(reponse.pointable.id) %]" value="[%= reponse.label %]">[%= reponse.label %]</option>	
+[% } %]
+</select>
+<input type="submit" value="Question suivante" name="suivant">
+</form>
+<script>
+var suivant = document.getElementById(suivant);
+suivant.onclick = function() {
+	if (typeof(Storage) !== "undefined) {
+		localStorage.setItem(localStorage.getItem() + "[%=questionChoix.label%] :" + select.options[reponse.selectedIndex].value);
+		location.href = select.options[reponse.selectedIndex].name;
+	}
+}
+</script>
+</body>
+</html>
+

@@ -1,0 +1,10 @@
+<html>
+<head>
+</head>
+<body>
+<h1>[%= fin.label %]</h1>
+<script>
+localStorage.getItem("questionnaire");
+</script>
+</body>
+</html>

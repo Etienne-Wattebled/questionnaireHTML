@@ -1,0 +1,27 @@
+
+<html>
+<head></head>
+<body>
+<h1>Cela vous semble t'il beaucoup ?</h1>
+<div style="width:800px;">	
+<button type="button" name="Oui" id="oui">Oui</button>		
+<button type="button" name="Non" id="non">Non</button>
+</div>
+<script type="text/javascript">   
+var oui = document.getElementById("oui");
+oui.onclick = function() {
+	if (typeof(Storage) !== "undefined") {
+		localStorage.setItem("questionnaire",localStorage.getItem("questionnaire") + "Cela vous semble t'il beaucoup ? : Oui";
+		location.href = "composants1.html";
+	}
+}
+var non = document.getElementById("non");
+non.onclick = function() {
+	if (typeof(Storage) !== "undefined") {
+		localStorage.setItem("questionnaire",localStorage.getItem("questionnaire") + "Cela vous semble t'il beaucoup ? : Non";
+		location.href = "composants1.html";
+	}
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+import "operations.eol";
+
+rule Debut
+	transform debut : Debut {
+		template : "debut.egl"
+		target : "questionnaire/index.html"
+	}
+rule Fin
+	transform fin : Fin {
+		template : "fin.egl"
+		target : "questionnaire/fin.html"
+	}
+rule QuestionLibre
+	transform questionLibre : QuestionLibre {
+		template : "questionLibre.egl"
+		target : "questionnaire/"+getId(questionLibre.id)+".html"
+	}
+rule QuestionOuiNon
+	transform questionOuiNon : QuestionOuiNon {
+		template : "questionOuiNon.egl"
+		target : "questionnaire/"+getId(questionOuiNon.id)+".html"
+	}
+rule QuestionChoix
+	transform questionChoix : QuestionChoix {
+		template : "questionnaire/"+getId(questionChoix.id)+".html"
+	}

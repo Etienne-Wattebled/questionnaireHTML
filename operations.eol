@@ -1,0 +1,23 @@
+operation getId(id: String):String {
+	return id.replace("@","").replace("/","").replace("\\.","");
+}
+operation getLiensSimples(id : String):List {
+	var results = new List;
+	var liensSimples = Questionnaire.all.first.liensS;
+	for (element in liensSimples) {
+		if (element.lienSimpleSource.id == id) {
+			results.add(element);
+		}
+	}
+	return results;
+}
+operation getLiensMultiples(id : String):List {
+	var results = new List;
+	var liensSimples = Questionnaire.all.first.liensQC;
+	for (element in liensSimples) {
+		if (element.lienQuestionChoix.id == id) {
+			results.add(element);
+		}
+	}
+	return results;
+}

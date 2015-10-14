@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:questionnaire="questionnaire" xmi:id="_aBMVEG0VEeWL0fK_GiY_VQ" type="Questionnaire" name="default.questionnaire_diagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Node" xmi:id="_EV1KgHJoEeW6YaGAShD6Nw" type="2002">
+    <children xmi:type="notation:DecorationNode" xmi:id="_EV2_sHJoEeW6YaGAShD6Nw" type="5002"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_EV1KgXJoEeW6YaGAShD6Nw"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_EV1KgnJoEeW6YaGAShD6Nw" fontName="Cantarell"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_EV1Kg3JoEeW6YaGAShD6Nw"/>
+    <element xmi:type="questionnaire:Debut" href="default.questionnaire#//@composants.0"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_EV1KhHJoEeW6YaGAShD6Nw" x="290" y="20"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_FD5xcHJoEeW6YaGAShD6Nw" type="2003">
+    <children xmi:type="notation:DecorationNode" xmi:id="_FD6YgHJoEeW6YaGAShD6Nw" type="5003"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_FD5xcXJoEeW6YaGAShD6Nw"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_FD5xcnJoEeW6YaGAShD6Nw" fontName="Cantarell"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_FD5xc3JoEeW6YaGAShD6Nw"/>
+    <element xmi:type="questionnaire:Fin" href="default.questionnaire#//@composants.1"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FD5xdHJoEeW6YaGAShD6Nw" x="175" y="395"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_N_InEHJoEeW6YaGAShD6Nw" type="2001">
+    <children xmi:type="notation:DecorationNode" xmi:id="_N_JOIHJoEeW6YaGAShD6Nw" type="5001"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_N_InEXJoEeW6YaGAShD6Nw"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_N_InEnJoEeW6YaGAShD6Nw" fontName="Cantarell"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_N_InE3JoEeW6YaGAShD6Nw"/>
+    <element xmi:type="questionnaire:QuestionLibre" href="default.questionnaire#//@composants.2"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_N_InFHJoEeW6YaGAShD6Nw" x="440" y="80"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_Pw8i8HJoEeW6YaGAShD6Nw" type="2005">
+    <children xmi:type="notation:DecorationNode" xmi:id="_Pw9KAHJoEeW6YaGAShD6Nw" type="5005"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_Pw8i8XJoEeW6YaGAShD6Nw"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_Pw8i8nJoEeW6YaGAShD6Nw" fontName="Cantarell"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_Pw8i83JoEeW6YaGAShD6Nw"/>
+    <element xmi:type="questionnaire:QuestionOuiNon" href="default.questionnaire#//@composants.3"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Pw8i9HJoEeW6YaGAShD6Nw" x="500" y="140"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_SB5R4HJoEeW6YaGAShD6Nw" type="2001">
+    <children xmi:type="notation:DecorationNode" xmi:id="_SB548HJoEeW6YaGAShD6Nw" type="5001"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_SB5R4XJoEeW6YaGAShD6Nw"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_SB5R4nJoEeW6YaGAShD6Nw" fontName="Cantarell"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_SB5R43JoEeW6YaGAShD6Nw"/>
+    <element xmi:type="questionnaire:QuestionLibre" href="default.questionnaire#//@composants.4"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_SB5R5HJoEeW6YaGAShD6Nw" x="645" y="180"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_WhwvcHJoEeW6YaGAShD6Nw" type="2004">
+    <children xmi:type="notation:DecorationNode" xmi:id="_WhxWgHJoEeW6YaGAShD6Nw" type="5004"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_WhwvcXJoEeW6YaGAShD6Nw"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_WhwvcnJoEeW6YaGAShD6Nw" fontName="Cantarell"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_Whwvc3JoEeW6YaGAShD6Nw"/>
+    <element xmi:type="questionnaire:QuestionChoix" href="default.questionnaire#//@composants.5"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WhwvdHJoEeW6YaGAShD6Nw" x="175" y="255"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_sCS4sHJoEeW6YaGAShD6Nw" type="2005">
+    <children xmi:type="notation:DecorationNode" xmi:id="_sCTfwHJoEeW6YaGAShD6Nw" type="5005"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_sCS4sXJoEeW6YaGAShD6Nw"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_sCS4snJoEeW6YaGAShD6Nw" fontName="Cantarell"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_sCS4s3JoEeW6YaGAShD6Nw"/>
+    <element xmi:type="questionnaire:QuestionOuiNon" href="default.questionnaire#//@composants.6"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sCS4tHJoEeW6YaGAShD6Nw" x="510" y="300"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_aBMVEW0VEeWL0fK_GiY_VQ"/>
+  <element xmi:type="questionnaire:Questionnaire" href="default.questionnaire#/"/>
+  <edges xmi:type="notation:Connector" xmi:id="_PObEsHJoEeW6YaGAShD6Nw" type="4001" source="_EV1KgHJoEeW6YaGAShD6Nw" target="_N_InEHJoEeW6YaGAShD6Nw">
+    <styles xmi:type="notation:FontStyle" xmi:id="_PObEsXJoEeW6YaGAShD6Nw" fontName="Cantarell"/>
+    <element xmi:type="questionnaire:LienSimple" href="default.questionnaire#//@liensS.0"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_PObEsnJoEeW6YaGAShD6Nw" points="[-5, 32, -13, -75]$[-89, 104, -97, -3]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_PPOV8HJoEeW6YaGAShD6Nw" id="(0.5714285714285714,0.2)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_ROoB4HJoEeW6YaGAShD6Nw" type="4001" source="_N_InEHJoEeW6YaGAShD6Nw" target="_Pw8i8HJoEeW6YaGAShD6Nw">
+    <styles xmi:type="notation:FontStyle" xmi:id="_ROoB4XJoEeW6YaGAShD6Nw" fontName="Cantarell"/>
+    <element xmi:type="questionnaire:LienSimple" href="default.questionnaire#//@liensS.1"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ROoB4nJoEeW6YaGAShD6Nw" points="[4, 20, 2, -65]$[4, 105, 2, 20]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_VOS8cHJoEeW6YaGAShD6Nw" type="4005" source="_Pw8i8HJoEeW6YaGAShD6Nw" target="_SB5R4HJoEeW6YaGAShD6Nw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_VOS8c3JoEeW6YaGAShD6Nw" type="6003">
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_VOS8dHJoEeW6YaGAShD6Nw"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_VOS8dXJoEeW6YaGAShD6Nw" x="5" y="-17"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_VOS8cXJoEeW6YaGAShD6Nw" fontName="Cantarell"/>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_VOS8cnJoEeW6YaGAShD6Nw" points="[32, 9, -194, -54]$[220, 83, -6, 20]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_Zrv_MHJoEeW6YaGAShD6Nw" type="4004" source="_Pw8i8HJoEeW6YaGAShD6Nw" target="_WhwvcHJoEeW6YaGAShD6Nw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_ZrwmQHJoEeW6YaGAShD6Nw" type="6002">
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_ZrwmQXJoEeW6YaGAShD6Nw"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_ZrxNUHJoEeW6YaGAShD6Nw" x="2" y="19"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_Zrv_MXJoEeW6YaGAShD6Nw" fontName="Cantarell"/>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Zrv_MnJoEeW6YaGAShD6Nw" points="[-32, 16, 104, -55]$[-143, 91, -7, 20]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_anP-IHJoEeW6YaGAShD6Nw" type="4001" source="_SB5R4HJoEeW6YaGAShD6Nw" target="_WhwvcHJoEeW6YaGAShD6Nw">
+    <styles xmi:type="notation:FontStyle" xmi:id="_anP-IXJoEeW6YaGAShD6Nw" fontName="Cantarell"/>
+    <element xmi:type="questionnaire:LienSimple" href="default.questionnaire#//@liensS.2"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_anP-InJoEeW6YaGAShD6Nw" points="[-17, 1, 241, -15]$[-252, 36, 6, 20]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_anTBcHJoEeW6YaGAShD6Nw" id="(0.19540229885057472,0.475)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_hr-lIHJoEeW6YaGAShD6Nw" type="4003" source="_WhwvcHJoEeW6YaGAShD6Nw" target="_FD5xcHJoEeW6YaGAShD6Nw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_hr_MMHJoEeW6YaGAShD6Nw" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_hr_MMXJoEeW6YaGAShD6Nw" x="-4" y="16"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_hr-lIXJoEeW6YaGAShD6Nw" fontName="Cantarell"/>
+    <element xmi:type="questionnaire:LienQuestionChoix" href="default.questionnaire#//@liensQC.0"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_hr-lInJoEeW6YaGAShD6Nw" points="[9, 20, -36, -80]$[17, 100, -28, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_hsHIAHJoEeW6YaGAShD6Nw" id="(0.19591836734693877,0.5)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_hsHIAXJoEeW6YaGAShD6Nw" id="(0.11764705882352941,0.5)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_izsbIHJoEeW6YaGAShD6Nw" type="4003" source="_WhwvcHJoEeW6YaGAShD6Nw" target="_FD5xcHJoEeW6YaGAShD6Nw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_izsbI3JoEeW6YaGAShD6Nw" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_izsbJHJoEeW6YaGAShD6Nw" x="-2" y="11"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_izsbIXJoEeW6YaGAShD6Nw" fontName="Cantarell"/>
+    <element xmi:type="questionnaire:LienQuestionChoix" href="default.questionnaire#//@liensQC.1"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_izsbInJoEeW6YaGAShD6Nw" points="[-12, 20, 80, -130]$[-86, 140, 6, -10]"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_izuQUHJoEeW6YaGAShD6Nw" id="(0.23109243697478993,0.25)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_kGGeMHJoEeW6YaGAShD6Nw" type="4003" source="_WhwvcHJoEeW6YaGAShD6Nw" target="_FD5xcHJoEeW6YaGAShD6Nw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_kGHFQHJoEeW6YaGAShD6Nw" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_kGHFQXJoEeW6YaGAShD6Nw" x="3" y="-29"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_kGGeMXJoEeW6YaGAShD6Nw" fontName="Cantarell"/>
+    <element xmi:type="questionnaire:LienQuestionChoix" href="default.questionnaire#//@liensQC.2"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_kGGeMnJoEeW6YaGAShD6Nw" points="[7, 20, -55, -80]$[-57, 93, -119, -7]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_tym_wHJoEeW6YaGAShD6Nw" type="4004" source="_sCS4sHJoEeW6YaGAShD6Nw" target="_FD5xcHJoEeW6YaGAShD6Nw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_tym_w3JoEeW6YaGAShD6Nw" type="6002">
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_tym_xHJoEeW6YaGAShD6Nw"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_tym_xXJoEeW6YaGAShD6Nw" x="2" y="15"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_tym_wXJoEeW6YaGAShD6Nw" fontName="Cantarell"/>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_tym_wnJoEeW6YaGAShD6Nw" points="[-6, 3, 113, -59]$[-73, 54, 46, -8]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_tynm0HJoEeW6YaGAShD6Nw" id="(0.42574257425742573,0.925)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_tynm0XJoEeW6YaGAShD6Nw" id="(0.8067226890756303,0.2)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_ulNhYHJoEeW6YaGAShD6Nw" type="4005" source="_sCS4sHJoEeW6YaGAShD6Nw" target="_FD5xcHJoEeW6YaGAShD6Nw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_ulOIcHJoEeW6YaGAShD6Nw" type="6003">
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_ulOIcXJoEeW6YaGAShD6Nw"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_ulOIcnJoEeW6YaGAShD6Nw" x="-2" y="-13"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_ulNhYXJoEeW6YaGAShD6Nw" fontName="Cantarell"/>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ulNhYnJoEeW6YaGAShD6Nw" points="[-30, 20, 174, -64]$[-87, 59, 117, -25]$[-198, 82, 6, -2]"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ulRy0HJoEeW6YaGAShD6Nw" id="(0.9747899159663865,0.225)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_3FGe0HJoEeW6YaGAShD6Nw" type="4003" source="_WhwvcHJoEeW6YaGAShD6Nw" target="_sCS4sHJoEeW6YaGAShD6Nw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_3FGe03JoEeW6YaGAShD6Nw" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_3FGe1HJoEeW6YaGAShD6Nw" x="3" y="14"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_3FGe0XJoEeW6YaGAShD6Nw" fontName="Cantarell"/>
+    <element xmi:type="questionnaire:LienQuestionChoix" href="default.questionnaire#//@liensQC.3"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_3FGe0nJoEeW6YaGAShD6Nw" points="[51, 20, -193, -65]$[143, 88, -101, 3]"/>
+  </edges>
+</notation:Diagram>
